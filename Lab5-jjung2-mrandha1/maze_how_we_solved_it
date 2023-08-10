@@ -1,0 +1,74 @@
+Enter Your Names Here
+Jiung jung, Muhammad Ghazi Randhawa
+
+maze puzzle 1: getting off of the roof
+==============
+Input: takes in a string
+The C code takes in a string and then uses an if statement to compare
+ it to a string in the memory. If the statement is true, then the function leaves
+ and returns. Otherwise, it trips up.We found the required string by
+ dereferencing the address of the string in the memory, and then used it as
+ the input.
+--------------------------------------------------------------------
+maze puzzle 2: getting past the residential floors
+==============
+Input: takes in 6 different integers
+This C code takes in 6 different integers separated a space. It first checks if
+there are 6 different integers. If there are not 6 different integers, it
+trips up. If there are 6 different integers, then it successively compares them
+to certain values through a series of if statements. If any of the if statements
+fail, the function trips up. The if statements are nestled successively. If
+the inputs are correct for each if statement, then the function returns and
+leaves. We found each successive input by going through the comparisons
+one at a time until we got ourselves an input that was not tripping the function
+up, and returning and leaving.
+
+--------------------------------------------------------------------
+maze puzzle 3: getting past Admissions
+==============
+It seems to be two if statements. The first if statement compares the first
+input with integer 0. If the if statement is satisfied, then it moves onto
+second if statement. We believe that the second if statement is nestled inside
+the first if statement because if the first statement is not satisfied first,
+it trips it up. The second if statement compares if the second input is equal
+to integer 532. If it is true, then it leaves and returns to main and prints out
+that we have finished the floor.
+We found this by going through the function multiple times until we were able to
+reach comparisons of input. From those comparisons, we were able to find the
+required inputs.
+
+--------------------------------------------------------------------
+maze puzzle 4: getting past the Registrar's Office
+==============
+Inputs: two integers with a space in between.
+
+it seems again to be two nested if statements. The first if statement takes the
+first input and compares it to 14. If the condition is not met, then it trips up.
+If the condition is met, then it jumps to conditions for the second if statement.
+This compares second input value and compares it to 45 integer. If they are not
+equal, the function trips up. if it is equal, then it leaves and returns.
+
+We found this by going through the function multiple times until we were able to
+reach comparisons of input. From those comparisons, we were able to find the
+required inputs.
+
+--------------------------------------------------------------------
+maze puzzle 5: Basement
+==============
+Input: Takes in a string of length 6.
+The first thing phase_5 does is make sure that our input has six characters.
+Following that, it converts our input to a new string; each letter has an
+assigned letter that it will convert to. We were not able to figure how that
+happens because it was using assembly codes in forms we have not seen yet.
+We figured out the required input by hit and trial. We found out the unique
+character required for each successive character of the required output of
+"bruins". After that, the function checks if the converted string is equivalent
+to the string "bruins." If the strings are equal, then we can get out of the
+function. If not, the function trips up.
+
+
+
+
+--------------------------------------------------------------------
+Anything else?
+=============

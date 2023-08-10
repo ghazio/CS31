@@ -1,0 +1,19 @@
+GOL
+--Correctness--
+Oscillator works correctly for two and three threads:     1/1
+Glider wrap works correctly:                              1/1
+Partitioning handles row/column options:                  1/1
+Partitioning meets fairness goals (diff of 1):            1/1
+Cell counts:                                              0/1
+
+--Performance--
+Performance increases from 1 -> 4 threads:                1/1
+
+
+--General--
+No valgrind warnings:                                     1/1
+
+
+Overall total:                                            6/7
+
+Notes: Your live cell count should not be in the print function, please read lab requirements.  
